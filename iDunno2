@@ -1,0 +1,38 @@
+cd ~/Documents/somethingNew
+git clone somethingNew
+cd somethingNew
+mkdir Projects
+cd Projects
+mkdir SampleProject
+cd SampleProject
+echo "Starting my Script $(date)!"
+echo "*DS_Store" > .gitignore
+touch index.html
+touch style.css
+mkdir css
+mv *style.css css/
+mkdir pages
+mkdir about
+mv *about pages/
+touch about.html
+touch about.css
+mv *about.html about/
+mv *about.css about/
+mkdir contact
+touch contact.html
+touch contact.css
+mv *contact.html contact/
+mv *contact.css contact/
+mkdir images
+touch companyLogo.png
+mkdir icons
+touch email.png
+touch phone.png
+touch chat.png
+mv *email.png icons/
+mv *phone.png icons/
+mv *chat.png icons/
+mkdir js
+touch index.js
+mv *index.js js/
+tree
