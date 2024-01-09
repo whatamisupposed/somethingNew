@@ -26,6 +26,8 @@ mv *contact.css contact/
 mkdir images
 touch companyLogo.png
 mkdir icons
+mv *companyLogo.png images/
+mv *icons images/
 touch email.png
 touch phone.png
 touch chat.png
