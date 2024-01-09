@@ -1,8 +1,5 @@
 nimcache/
 nimblecache/
 htmldocs/
-# Ignore macOS directory metadata
-.DS_Store
-
-# Ignore .nfo files
+*DS_Store
 *.nfo
